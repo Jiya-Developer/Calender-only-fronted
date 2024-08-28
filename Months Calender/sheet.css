@@ -1,0 +1,58 @@
+body{
+    background-image: url(realistic-neon-lights-background_23-2148907367.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.calendar {
+    border: 2px solid rgb(10, 10, 14);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: palevioletred;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.month-year {
+    margin: 0;
+}
+
+.calendar-body {
+    padding: 18px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.days-of-week, .days {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.days-of-week .col, .days .col {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid plum;
+    box-sizing: border-box;
+}
+
+.day {
+    height: 110px;
+    line-height: 80px;
+}
+
+.col:hover {
+    background-color: rgb(93, 167, 163);
+    cursor: pointer;
+    color: black;
+}
+.btn{
+    color: black;
+}
+.btn:hover{
+    background-color:rgb(93, 167, 163);
+}
